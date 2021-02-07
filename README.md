@@ -61,7 +61,7 @@ The above configurations are needed for spring boot microservice application to 
 
 ### The Code 
 ```sh
-$ git clone .....
+$ git clone https://github.com/sharadiiita/sd-microservice-play.git
 
 ```
 Building the project
