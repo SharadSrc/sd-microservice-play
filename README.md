@@ -46,7 +46,7 @@ Create a simple MongoDB cluster and database hierarchy as below. Make sure to pr
 Once username/password is created for database, update same in application.properties file as well as shown below.
 
 ```
-spring.data.mongodb.uri=mongodb+srv://Initial123:<password>@cluster0.w6mtz.mongodb.net/ValueMapping?retryWrites=true&w=majority
+spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.<url>.mongodb.net/<tablename>?retryWrites=true&w=majority
 spring.data.mongodb.database=ValueMapping
 server.port=8012
 logging.level.org.springframework.web=DEBUG
