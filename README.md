@@ -1,5 +1,5 @@
 # Developing and Deploying your first Spring Boot Microservice Application to Kubernetes
-### Steps performed 
+### As part of this document, we'll:
 
 1. Create a Spring Boot Application
 1. Connect to MongoDB Cloud
@@ -7,13 +7,13 @@
 1. Setting up of Kubernetes Cluster
 1. Deployment 
 1. Perform CRUD operation 
-1. Scaling and replicas....
+1. Scaling and replicas....( In Process )
 
 
 ![This is a alt text.](1.png )
 
 # Introduction
-In this tutorial, we will be developing the sample microservice application with Spring Boot. Afterward, we will deploy the containersed application onto a MiniKube kubernetes cluster.
+In this tutorial, we will be developing a sample microservice application with Spring Boot framework. Afterwards, we will deploy the containersed application onto a local Kubernetes environment, also known as Minikubecluster.
 
 For our example application, we’ll create a valuemapping pair service microservice which will be exposed externally to REST endpoints for CRUD(create) operations . The sample microservice is a codepair creation service which will take accNo, accName and accID as input and creates a new value-mapping pair and stores in a cloud hosted MongoDB database.
 
