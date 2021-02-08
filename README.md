@@ -170,7 +170,7 @@ Afterwards, you need to rebuild you image .
 
 ## Running the app from a container
 
-To start the container, services and  expose it to external traffic: 
+To start the container, services and  expose it to external traffic(By default, the Pod is only accessible by its internal IP address within the Kubernetes cluster): 
 
 run the following commands:
 
@@ -186,6 +186,8 @@ If everthing is green like pods, replica sets etc.
 ![This is a alt text.](10.png ) 
 
 then we are ready to access our application on kubernetes at the IP address of the Minikube .
+
+
 
 ### Todos
 
