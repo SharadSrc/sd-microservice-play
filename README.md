@@ -178,7 +178,7 @@ run the following commands:
 $ kubectl run myapp --image=myapp --port=8012
 $ kubectl create deployment myapp --image=myapp 
 $ kubectl expose deployment myapp --type="LoadBalancer" --port 8012      
-$ minikube service hello-universe --url
+$ minikube service myapp --url
 ```
 
 If everthing is green like pods, replica sets etc.
