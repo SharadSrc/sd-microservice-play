@@ -160,7 +160,7 @@ $ start minikube
 As minikube uses it own Docker demon which is running inside it so we need to switch it 
 
 ```sh
-$ sminikube docker-env
+$ minikube docker-env
 $ minikube docker-env | Invoke-Expression
 
 ```
