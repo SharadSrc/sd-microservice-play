@@ -157,7 +157,7 @@ $ start minikube
 ![This is a alt text.](9.png ) 
 
 
-As minikube as Docker demon running inside it so we need to switch it 
+As minikube uses it own Docker demon which is running inside it so we need to switch it 
 
 ```sh
 $ sminikube docker-env
