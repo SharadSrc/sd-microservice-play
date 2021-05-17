@@ -1,5 +1,6 @@
+Author: Sharad Dixit
 # Developing and Deploying your first Spring Boot Microservice Application to Kubernetes
-### As part of this document, we'll:
+### As part of this document, you'll learn following:
 
 1. Create a Spring Boot Application
 1. Connect to MongoDB Cloud
